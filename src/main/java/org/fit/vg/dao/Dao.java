@@ -1,0 +1,10 @@
+package org.fit.vg.dao;
+
+import java.io.Serializable;
+
+
+public interface Dao<T extends Object> {
+	 void create(T t);
+	 T get(Serializable id);
+	 void update(T t);
+}

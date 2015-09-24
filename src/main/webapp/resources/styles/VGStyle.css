@@ -1,0 +1,50 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#GraphitiCanvas {
+	border: 1px solid #33d118;
+	height: 95%;
+	width: 95%;
+	position: relative;
+}
+
+#map-canvas {
+	border: 1px solid #FF0000;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	di
+}
+/*
+	Style definition for Menu starts
+*/
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: fuchsia;
+}
+
+li {
+    display: inline;
+}
+/*
+	Style definition for Menu ends
+*/
